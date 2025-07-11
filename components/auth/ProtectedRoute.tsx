@@ -9,7 +9,7 @@ interface ProtectedRouteProps {
   allowedRoles: UserRole[];
 }
 
-export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ 
+const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ 
   children, 
   allowedRoles 
 }) => {
@@ -44,3 +44,5 @@ export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({
 
   return <>{children}</>;
 };
+
+export default ProtectedRoute;
