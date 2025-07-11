@@ -106,7 +106,7 @@ export default function VendorDashboard() {
                       <p className="font-medium">Grocery Package</p>
                       <p className="text-sm text-slate-600">B-205 • ₹1,200</p>
                     </div>
-                    <span className="bg-warmth-100 text-warmth-800 px-2 py-1 rounded text-xs">Pending</span>
+                    <span className="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">Pending</span>
                   </div>
                   <div className="flex items-center justify-between p-3 bg-slate-50 rounded-lg">
                     <div>
@@ -139,7 +139,7 @@ export default function VendorDashboard() {
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-sm font-medium">Response Time</span>
-                    <span className="text-sm text-green-600">< 2 hours</span>
+                    <span className="text-sm text-green-600">&lt; 2 hours</span>
                   </div>
                 </div>
               </CardContent>
@@ -148,8 +148,8 @@ export default function VendorDashboard() {
 
           <Card className="mt-6">
             <CardContent className="pt-6">
-              <div className="bg-warmth-50 border border-warmth-200 rounded-lg p-4">
-                <p className="text-sm text-warmth-800">
+              <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
+                <p className="text-sm text-yellow-800">
                   <strong>TODO for Interns:</strong> Implement vendor dashboard with order management, 
                   analytics, and notifications.
                 </p>
@@ -159,6 +159,5 @@ export default function VendorDashboard() {
         </div>
       </div>
     </ProtectedRoute>
-  )
   );
 }
