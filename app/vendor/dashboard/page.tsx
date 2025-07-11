@@ -139,7 +139,7 @@ export default function VendorDashboard() {
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-sm font-medium">Response Time</span>
-                    <span className="text-sm text-green-600">< 2 hours</span>
+                    <span className="text-sm text-green-600">&lt; 2 hours</span>
                   </div>
                 </div>
               </CardContent>
@@ -160,5 +160,4 @@ export default function VendorDashboard() {
       </div>
     </ProtectedRoute>
   )
-  );
 }
