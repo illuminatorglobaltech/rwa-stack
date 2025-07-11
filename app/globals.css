@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --background: 180 100% 97%;      /* light cyan */
+  --card: 0 0% 100%;               /* white */
+  --primary: 174 61% 32%;          /* teal-600 */
+  --secondary: 186 96% 43%;        /* cyan-500 */
+  --muted: 186 100% 90%;           /* cyan-100 */
+  --accent: 168 76% 48%;           /* teal-400 */
+  --destructive: 346 77% 60%;      /* rose-500 */
+  --border: 186 100% 85%;          /* cyan-200 */
+  --input: 186 100% 85%;           /* cyan-200 */
+  --ring: 174 61% 32%;             /* teal-600 */
+  --chart-1: 174 61% 32%;
+  --chart-2: 186 96% 43%;
+  --chart-3: 168 76% 48%;
+  --chart-4: 90 61% 44%;           /* lime-500 */
+  --chart-5: 265 81% 67%;          /* purple-500 */
+  --radius: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 180 100% 97%;      /* light cyan */
+    --foreground: 210 24% 16%;       /* slate-900 */
+    --card: 0 0% 100%;               /* white */
+    --card-foreground: 210 24% 16%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 24% 16%;
+    --primary: 174 61% 32%;          /* teal-600 */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 186 96% 43%;        /* cyan-500 */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 186 100% 90%;           /* cyan-100 */
+    --muted-foreground: 186 100% 20%;/* cyan-700 */
+    --accent: 168 76% 48%;           /* teal-400 */
+    --accent-foreground: 210 24% 16%;
+    --destructive: 346 77% 60%;      /* rose-500 */
+    --destructive-foreground: 0 0% 100%;
+    --border: 186 100% 85%;          /* cyan-200 */
+    --input: 186 100% 85%;           /* cyan-200 */
+    --ring: 174 61% 32%;             /* teal-600 */
+    --chart-1: 174 61% 32%;
+    --chart-2: 186 96% 43%;
+    --chart-3: 168 76% 48%;
+    --chart-4: 90 61% 44%;           /* lime-500 */
+    --chart-5: 265 81% 67%;          /* purple-500 */
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 186 100% 20%;      /* cyan-700 */
+    --foreground: 180 100% 97%;       /* cyan-50 */
+    --card: 186 100% 10%;             /* cyan-900 */
+    --card-foreground: 180 100% 97%;
+    --popover: 186 100% 10%;
+    --popover-foreground: 180 100% 97%;
+    --primary: 168 76% 48%;           /* teal-400 */
+    --primary-foreground: 210 24% 16%;
+    --secondary: 186 96% 43%;         /* cyan-500 */
+    --secondary-foreground: 180 100% 97%;
+    --muted: 186 100% 10%;            /* cyan-900 */
+    --muted-foreground: 186 100% 90%; /* cyan-100 */
+    --accent: 174 61% 32%;            /* teal-600 */
+    --accent-foreground: 180 100% 97%;
+    --destructive: 346 77% 60%;       /* rose-500 */
+    --destructive-foreground: 180 100% 97%;
+    --border: 186 96% 43%;            /* cyan-500 */
+    --input: 186 96% 43%;             /* cyan-500 */
+    --ring: 168 76% 48%;              /* teal-400 */
+    --chart-1: 168 76% 48%;
+    --chart-2: 186 96% 43%;
+    --chart-3: 174 61% 32%;
+    --chart-4: 90 61% 44%;
+    --chart-5: 265 81% 67%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-medium;
+  }
+}
+
+@layer components {
+  .sidebar-nav {
+    @apply flex flex-col space-y-2 p-4;
+  }
+  
+  .sidebar-nav-item {
+    @apply flex items-center space-x-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors hover:bg-muted;
+  }
+  
+  .sidebar-nav-item.active {
+    @apply bg-primary text-primary-foreground hover:bg-primary/90;
+  }
+  
+  .page-container {
+    @apply min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 p-6;
+  }
+  
+  .page-header {
+    @apply bg-white rounded-lg shadow-sm p-6 mb-6 border border-slate-200;
+  }
+  
+  .stats-card {
+    @apply bg-white rounded-lg shadow-sm p-6 border border-slate-200 hover:shadow-md transition-shadow;
+  }
+  
+  .role-badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  
+  .role-badge.admin {
+    @apply bg-purple-100 text-purple-800;
+  }
+  
+  .role-badge.resident {
+    @apply bg-community-100 text-community-800;
+  }
+  
+  .role-badge.worker {
+    @apply bg-blue-100 text-blue-800;
+  }
+  
+  .role-badge.guard {
+    @apply bg-orange-100 text-orange-800;
+  }
+  
+  .role-badge.vendor {
+    @apply bg-green-100 text-green-800;
+  }
+}
