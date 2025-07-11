@@ -1,0 +1,81 @@
+ID,Title,Description,Module,Type
+101,Implement Admin Login Screen UI (A1),Design and code the Admin Login screen including username and password fields with basic form validation using React/Flutter.,Admin Dashboard,Frontend
+102,API: Admin Authentication with Firebase,Create backend API for admin login using Firebase Auth with error handling for invalid credentials.,Admin Dashboard,Backend
+103,Build Admin Dashboard Layout with Tiles (A2),"Create landing page for admin with tiles linking to Notices, Complaints, Dues, and Booking sections.",Admin Dashboard,Backend
+104,Implement Announcements CRUD UI (A3),"Build announcements page to view, create, edit, and delete society notices with modal popup forms.",Admin Dashboard,Frontend
+105,API: Manage Announcements CRUD,"Create endpoints to handle create, read, update, and delete of society announcements, storing them in Firestore/PostgreSQL.",Admin Dashboard,Backend
+106,Build Complaints Management Table + Filters (A4),"Create complaint view for admin with filters for type and status, including assign dropdown.",Admin Dashboard,Backend
+107,API: Fetch Complaints with Filters,"Backend API to fetch complaints by category, status, and assigned worker.",Admin Dashboard,Backend
+108,Implement Payment Records UI (A5),Create payment records page for viewing unit-wise dues and payment status.,Admin Dashboard,Frontend
+109,API: Fetch and Update Payment Status,Create endpoints to get dues and update paid/unpaid status of residents.,Admin Dashboard,Backend
+110,Build Event Approval Calendar View (A6),Design a calendar UI with event request tiles and an approval table.,Admin Dashboard,Backend
+111,API: Approve/Reject Event Booking Requests,"Backend endpoint to fetch, approve, or reject amenity/event bookings.",Admin Dashboard,Backend
+112,Resident Management UI (Approve/Block),Interface for admin to view and manage resident access and permissions.,Admin Dashboard,Frontend
+113,API: Resident Access Management,API to update resident status (approved/blocked/transferred).,Admin Dashboard,Backend
+114,Admin Dashboard Responsive Layout,"Ensure Admin Dashboard layout works across mobile, tablet, and desktop.",Admin Dashboard,Backend
+115,Sort & Filter Controls for Admin Tables,"Implement sorting and filtering UI for complaints, bookings, payments.",Admin Dashboard,Backend
+116,Search Functionality for Residents,"Add search bar to look up resident by name, flat number or phone.",Admin Dashboard,Backend
+117,Export Reports (PDF/CSV),Add button to export complaints/payment logs to PDF/CSV format.,Admin Dashboard,Backend
+118,Show Notification Badges on Tiles,"Add counters to dashboard tiles for new complaints, pending dues, etc.",Admin Dashboard,Backend
+119,Protect Admin Routes,Implement route guards to restrict access to admin-only routes.,Admin Dashboard,Backend
+120,Unit Testing: Admin Components,Write unit tests for Admin UI components and basic integration tests.,Admin Dashboard,Backend
+121,Implement Resident OTP Login (R1),Build OTP-based login screen using mobile number and Firebase Auth.,Resident Dashboard,Backend
+122,Resident Dashboard Home UI (R2),"Create main dashboard tiles for Pay Dues, Raise Complaint, Book Service, Track Packages.",Resident Dashboard,Frontend
+123,Flat Info Display Page (R3),"Create a screen showing ownership info, dues, and utility history for resident.",Resident Dashboard,Backend
+124,Complaint Submission Form UI (R4),"UI form for residents to select complaint type, description and image upload.",Resident Dashboard,Frontend
+125,API: Submit Complaint,Create backend endpoint to submit complaint and link to flat/resident.,Resident Dashboard,Backend
+126,Service Booking Flow UI (R5),"Multi-step UI for selecting category, vendor, slot, and submitting a service request.",Resident Dashboard,Frontend
+127,API: Book a Service Vendor,"Backend API to store resident service booking with vendor, time, and type.",Resident Dashboard,Backend
+128,Amenity Booking Screen UI (R6),UI to view amenities and request a time slot for clubhouse/gym/etc.,Resident Dashboard,Frontend
+129,API: Submit Amenity Booking,Create endpoint to handle booking submission for amenities.,Resident Dashboard,Backend
+130,Package Tracker Component,Card or alert for recent package delivery updates on dashboard.,Resident Dashboard,Backend
+131,API: Fetch Flat Info,Backend endpoint to return flat ownership and dues info.,Resident Dashboard,Backend
+132,Enable UPI/Razorpay Payments,Integrate Razorpay for paying dues with success/failure callback.,Resident Dashboard,Backend
+133,Notification Bell UI + API,Create notification bell and backend logic to fetch user-specific alerts.,Resident Dashboard,Frontend
+134,Service Booking History Screen,Create UI for residents to view past bookings and status.,Resident Dashboard,Frontend
+135,Enable Complaint Status Updates,Add real-time status tracking to resident complaints.,Resident Dashboard,Backend
+136,Push Notification Setup for Residents,Set up FCM to notify residents on complaint updates or booking confirmations.,Resident Dashboard,Backend
+137,Secure Routes for Logged-in Residents,Only allow access to resident dashboard if logged in.,Resident Dashboard,Backend
+138,Profile Management Screen,"Allow resident to update their name, email, and contact info.",Resident Dashboard,Frontend
+139,Mark Complaint as Resolved (Resident),Option for resident to confirm complaint is resolved after worker marks done.,Resident Dashboard,Backend
+140,Rate Vendor/Worker After Job,Rating and feedback form post service completion.,Resident Dashboard,Backend
+141,Task 141: Gate Module Task,Detailed task implementation for Gate Panel functionality. Replace with specific item as per module plan.,Gate Panel,Frontend
+142,Task 142: Vendor Module Task,Detailed task implementation for Vendor Dashboard functionality. Replace with specific item as per module plan.,Vendor Portal,Backend
+143,Task 143: Worker Module Task,Detailed task implementation for Worker Flow functionality. Replace with specific item as per module plan.,Worker Panel,Frontend
+144,Task 144: AI Module Task,Detailed task implementation for AI Classifier functionality. Replace with specific item as per module plan.,AI Engine,AI
+145,Task 145: Courier Module Task,Detailed task implementation for Courier Entry functionality. Replace with specific item as per module plan.,Courier Panel,Frontend
+146,Task 146: QA Module Task,Detailed task implementation for Testing functionality. Replace with specific item as per module plan.,QA,QA
+147,Task 147: Gate Module Task,Detailed task implementation for Gate Panel functionality. Replace with specific item as per module plan.,Gate Panel,Frontend
+148,Task 148: Vendor Module Task,Detailed task implementation for Vendor Dashboard functionality. Replace with specific item as per module plan.,Vendor Portal,Backend
+149,Task 149: Worker Module Task,Detailed task implementation for Worker Flow functionality. Replace with specific item as per module plan.,Worker Panel,Frontend
+150,Task 150: AI Module Task,Detailed task implementation for AI Classifier functionality. Replace with specific item as per module plan.,AI Engine,AI
+151,Task 151: Courier Module Task,Detailed task implementation for Courier Entry functionality. Replace with specific item as per module plan.,Courier Panel,Frontend
+152,Task 152: QA Module Task,Detailed task implementation for Testing functionality. Replace with specific item as per module plan.,QA,QA
+153,Task 153: Gate Module Task,Detailed task implementation for Gate Panel functionality. Replace with specific item as per module plan.,Gate Panel,Frontend
+154,Task 154: Vendor Module Task,Detailed task implementation for Vendor Dashboard functionality. Replace with specific item as per module plan.,Vendor Portal,Backend
+155,Task 155: Worker Module Task,Detailed task implementation for Worker Flow functionality. Replace with specific item as per module plan.,Worker Panel,Frontend
+156,Task 156: AI Module Task,Detailed task implementation for AI Classifier functionality. Replace with specific item as per module plan.,AI Engine,AI
+157,Task 157: Courier Module Task,Detailed task implementation for Courier Entry functionality. Replace with specific item as per module plan.,Courier Panel,Frontend
+158,Task 158: QA Module Task,Detailed task implementation for Testing functionality. Replace with specific item as per module plan.,QA,QA
+159,Task 159: Gate Module Task,Detailed task implementation for Gate Panel functionality. Replace with specific item as per module plan.,Gate Panel,Frontend
+160,Task 160: Vendor Module Task,Detailed task implementation for Vendor Dashboard functionality. Replace with specific item as per module plan.,Vendor Portal,Backend
+161,Task 161: Worker Module Task,Detailed task implementation for Worker Flow functionality. Replace with specific item as per module plan.,Worker Panel,Frontend
+162,Task 162: AI Module Task,Detailed task implementation for AI Classifier functionality. Replace with specific item as per module plan.,AI Engine,AI
+163,Task 163: Courier Module Task,Detailed task implementation for Courier Entry functionality. Replace with specific item as per module plan.,Courier Panel,Frontend
+164,Task 164: QA Module Task,Detailed task implementation for Testing functionality. Replace with specific item as per module plan.,QA,QA
+165,Task 165: Gate Module Task,Detailed task implementation for Gate Panel functionality. Replace with specific item as per module plan.,Gate Panel,Frontend
+166,Task 166: Vendor Module Task,Detailed task implementation for Vendor Dashboard functionality. Replace with specific item as per module plan.,Vendor Portal,Backend
+167,Task 167: Worker Module Task,Detailed task implementation for Worker Flow functionality. Replace with specific item as per module plan.,Worker Panel,Frontend
+168,Task 168: AI Module Task,Detailed task implementation for AI Classifier functionality. Replace with specific item as per module plan.,AI Engine,AI
+169,Task 169: Courier Module Task,Detailed task implementation for Courier Entry functionality. Replace with specific item as per module plan.,Courier Panel,Frontend
+170,Task 170: QA Module Task,Detailed task implementation for Testing functionality. Replace with specific item as per module plan.,QA,QA
+171,Task 171: Gate Module Task,Detailed task implementation for Gate Panel functionality. Replace with specific item as per module plan.,Gate Panel,Frontend
+172,Task 172: Vendor Module Task,Detailed task implementation for Vendor Dashboard functionality. Replace with specific item as per module plan.,Vendor Portal,Backend
+173,Task 173: Worker Module Task,Detailed task implementation for Worker Flow functionality. Replace with specific item as per module plan.,Worker Panel,Frontend
+174,Task 174: AI Module Task,Detailed task implementation for AI Classifier functionality. Replace with specific item as per module plan.,AI Engine,AI
+175,Task 175: Courier Module Task,Detailed task implementation for Courier Entry functionality. Replace with specific item as per module plan.,Courier Panel,Frontend
+176,Task 176: QA Module Task,Detailed task implementation for Testing functionality. Replace with specific item as per module plan.,QA,QA
+177,Task 177: Gate Module Task,Detailed task implementation for Gate Panel functionality. Replace with specific item as per module plan.,Gate Panel,Frontend
+178,Task 178: Vendor Module Task,Detailed task implementation for Vendor Dashboard functionality. Replace with specific item as per module plan.,Vendor Portal,Backend
+179,Task 179: Worker Module Task,Detailed task implementation for Worker Flow functionality. Replace with specific item as per module plan.,Worker Panel,Frontend
+180,Task 180: AI Module Task,Detailed task implementation for AI Classifier functionality. Replace with specific item as per module plan.,AI Engine,AI
