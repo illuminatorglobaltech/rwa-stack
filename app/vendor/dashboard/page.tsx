@@ -160,5 +160,8 @@ export default function VendorDashboard() {
       </div>
     </ProtectedRoute>
   )
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 }
