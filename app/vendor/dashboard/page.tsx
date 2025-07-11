@@ -163,6 +163,8 @@ export default function VendorDashboard() {
   );
 =======
   )
+<<<<<<< HEAD
 
->>>>>>> b7244ae (initial commit)
+=======
+>>>>>>> origin/main
 }
